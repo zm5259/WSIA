@@ -1,4 +1,4 @@
-# WFSA 
+# WSIA 
 
 ## Wave Field Simulation of Irregular Asteroids
  * This repository provides a comprehensive workflow for simulating wave fields on irregular asteroids using CUBIT and the Spectral Element Method (SPECFEM).
