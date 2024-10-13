@@ -59,7 +59,6 @@ def generate_mesh(mesh_size, CUBIT_PATH, SPECFEM_PATH):
     
     # Import STL file and adjust geometry
     cubit.cmd(f'import stl "{stl_file}" feature_angle 135.00 Spline merge ')
-    cubit.cmd('vol 1 move x 0 y 0 z -980')
     cubit.cmd('merge all')
     
     # Generate mesh with specified size
