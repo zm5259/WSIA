@@ -38,7 +38,7 @@ conda activate asteroid
 ```
 * Install the required Python packages:
 ```shell 
-conda  install numpy matplotlib scipy
+conda  install numpy matplotlib scipy stl
 ```
 
 ## 二、Prepare Model Files
